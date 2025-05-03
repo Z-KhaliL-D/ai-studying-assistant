@@ -3,10 +3,8 @@ import requests
 from dotenv import load_dotenv
 import graphviz
 
-# Load environment variables
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
-# Use the GROQ_TOKEN environment variable for authentication.
-headers = {"Authorization":"Bearer "} #modified this line
+headers = {"Authorization":"Bearer YOUR_API_KEY"} 
 
 def get_mindmap(text, parse_description=""):
     promptM = f"""
@@ -60,7 +58,7 @@ def get_mindmap(text, parse_description=""):
     Respond only with the markdown mind map, no additional text, comments, or any other extras.
     """
     payload = {
-        "model": "llama-3.3-70b-versatile",  # or the appropriate model ID
+        "model": "llama-3.3-70b-versatile", 
         "messages": [
             {"role": "user", "content": promptM}
         ],
