@@ -8,7 +8,7 @@ The **AI Studying Assistant** is an interactive tool built with Streamlit that h
 
 ---
 
-## 📁Project Structure & File Overview
+## Project Structure & File Overview
 
 ### `main_app.py`
 This is the **main Streamlit application**. It provides the user interface and manages the following workflows:
@@ -37,5 +37,12 @@ A list of all required Python packages to run the application, including:
 
 1. **Clone the Repository**
    ```bash
-   git clone https://your-repo-url
-   cd ai-studying-assistant
+   git clone https://github.com/Z-KhaliL-D/ai-studying-assistant
+2.Install Required Packages
+ ```bash
+   pip install -r requirements.txt
+3. Run app
+ ```bash
+streamlit run main_app.py
+
+
