@@ -1,0 +1,13 @@
+streamlit
+pypdf
+requests
+langchain
+langchain.text_splitter 
+chromadb
+sentence-transformers
+langchain_community
+spacy 
+keybert
+networkx 
+matplotlib
+python-dotenv 
