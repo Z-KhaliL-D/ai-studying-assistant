@@ -23,13 +23,7 @@ A **support module** that handles:
 - Parsing that markdown and rendering it into a visual diagram using **Graphviz**
 
 ### `requirements.txt`
-A list of all required Python packages to run the application, including:
-- `streamlit`
-- `langchain`
-- `huggingface-hub`
-- `graphviz`
-- `requests`
-- and any other dependencies used in the code
+A list of all required Python packages to run the application.
 
 ---
 
