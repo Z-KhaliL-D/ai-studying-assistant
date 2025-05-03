@@ -12,7 +12,7 @@ import mindmap
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 headers = {
     "Content-Type": "application/json",
-    "Authorization": "Bearer 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"
+    "Authorization": "Bearer YOUR_API_KEY"
 }
 
 
@@ -193,7 +193,7 @@ if st.session_state.get("quiz_ready"):
             submitted = st.form_submit_button("Submit Answers")
 
         if submitted:
-            st.markdown("### ✅ Results")
+            st.markdown("### Results")
             correct = 0
             for i, (_, correct_answer) in enumerate(question_blocks):
                 user_ans = user_answers[i]
