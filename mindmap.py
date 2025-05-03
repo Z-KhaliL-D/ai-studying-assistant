@@ -72,7 +72,7 @@ def get_mindmap(text, parse_description=""):
     try:
         print("Sending API request...")
         response = requests.post(API_URL, headers=headers, json=payload, timeout=30)
-        response.raise_for_status()  # Raises an error for bad responses
+        response.raise_for_status()  
         result = response.json()
         if "choices" in result and len(result["choices"]) > 0:
 
