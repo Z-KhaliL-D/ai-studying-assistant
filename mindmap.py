@@ -6,7 +6,7 @@ import graphviz
 # Load environment variables
 API_URL = "https://api.groq.com/openai/v1/chat/completions"
 # Use the GROQ_TOKEN environment variable for authentication.
-headers = {"Authorization":"Bearer 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"} #modified this line
+headers = {"Authorization":"Bearer "} #modified this line
 
 def get_mindmap(text, parse_description=""):
     promptM = f"""
