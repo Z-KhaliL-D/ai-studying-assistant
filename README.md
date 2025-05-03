@@ -38,9 +38,10 @@ A list of all required Python packages to run the application, including:
 1. **Clone the Repository**
    ```bash
    git clone https://github.com/Z-KhaliL-D/ai-studying-assistant
-2.Install Required Packages
- ```bash
+2. **Install Required Packages**
+   ```bash
    pip install -r requirements.txt
+
 3. Run app
  ```bash
 streamlit run main_app.py
